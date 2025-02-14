@@ -1,6 +1,6 @@
-package com.javanauta.agendamento_notificacao_api.business;
+package com.javanauta.agendamento_notificacao_api.Business;
 
-import com.javanauta.agendamento_notificacao_api.business.mapper.IAgendamentoMapper;
+import com.javanauta.agendamento_notificacao_api.Business.mapper.IAgendamentoMapper;
 import com.javanauta.agendamento_notificacao_api.controller.dto.in.AgendamentoRecord;
 import com.javanauta.agendamento_notificacao_api.controller.dto.out.AgendamentoRecordOut;
 import com.javanauta.agendamento_notificacao_api.infrastructure.entities.Agendamento;
