@@ -1,6 +1,6 @@
 package com.javanauta.agendamento_notificacao_api.controller;
 
-import com.javanauta.agendamento_notificacao_api.business.AgendamentoService;
+import com.javanauta.agendamento_notificacao_api.Business.AgendamentoService;
 import com.javanauta.agendamento_notificacao_api.controller.dto.in.AgendamentoRecord;
 import com.javanauta.agendamento_notificacao_api.controller.dto.out.AgendamentoRecordOut;
 import lombok.RequiredArgsConstructor;

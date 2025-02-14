@@ -10,6 +10,8 @@ public record AgendamentoRecordOut(Long id,
                                    String telefoneDestinatario,
                                    String mensagem,
                                    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
-                                LocalDateTime dataHoraEnvio,
-                                   StatusNotificacaoEnum statusNotificacao) {
+                                    LocalDateTime dataHoraEnvio,
+                                   StatusNotificacaoEnum statusNotificacao,
+                                   @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
+                                   LocalDateTime dataHoraModificacao ) {
 }
